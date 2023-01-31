@@ -144,7 +144,7 @@ const App: FC = () => {
             TO-DO LIST
           </h1>
           <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
-          <div className="flex max-sm:flex-col px-8 pt-6">
+          <div className="flex max-sm:flex-col px-8 pt-6 bg-[#72bcff]">
             <Droppable droppableId="Active">
               {(provided, snapshot) => (
                 <div
